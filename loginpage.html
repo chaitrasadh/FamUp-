@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title> FamUp</title>
+    <link rel="icon" href="logo.JPG" type="image/x-icon" />
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="loginpage.js"></script>
+    <link href="loginpage.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+    <span>
+        <span>
+            <img id="imgone" src="img1.gif">
+            <img id="imgtwo" src="img2.gif"></img>
+        </span>
+
+        <div style="border-width: 60px;" id="logindiv">
+            <h1 style="font-family: Beau Rivage,cursive">FamUp</h1>
+            <br>
+            <br>
+            <input class="inputs" type="text" id="usernameinput" placeholder="User Name">
+            <br>
+            <br>
+            <input class="inputs" type="text" id="roomnameinput" placeholder="Room Name">
+            <br>
+            <br>
+            <button onclick="LogIn()" id="loginbtn">Log In</button>
+        </div>
+    </span>
+
+</body>
+
+</html>

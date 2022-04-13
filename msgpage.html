@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>FamUp</title>
+    <link rel="icon" href="logo.JPG" type="image/x-icon" />
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="msgpage.js"></script>
+    <link href="msgpage.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+</head>
+
+<body background="wallpaper.png">
+    <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out"> Logout</button>
+    <h2 id="roomname"></h2>
+
+    <div id="msgsdiv"></div>
+
+    <div id="bla">
+        <textarea id="msginput" placeholder="Type Something"></textarea>
+        <button onclick="send()" class="glyphicon glyphicon-send" id="sendbtn"></button>
+    </div>
+
+</body>
+
+</html>
